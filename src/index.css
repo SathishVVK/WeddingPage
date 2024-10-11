@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.background-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: end;
+  background-image: url("//images-pw.pixieset.com/elementfield/523086913/SP_4_Wedding_R1_063_LR-b4830ab3.jpg");
+  background-position: 56%, 57%;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.about-heading {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+.paragraph {
+  color: rgb(88, 89, 91);
+  font-family: "Lora", serif;
+  width: 90%;
+  max-width: 100%;
+  padding: 1em;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 2;
+}
+
+@media only screen and (min-width: 768px) {
+  .founder-details {
+    color: rgb(88, 89, 91);
+    font-family: "Lora", serif;
+    width: 100%;
+    max-width: 100%;
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  .founder-img {
+    width: 100%;
+    max-width: 95%;
+    padding: 1em;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .founder-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .founder-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .founder-details {
+    color: rgb(88, 89, 91);
+    font-family: "Lora", serif;
+    width: 100%;
+    max-width: 100%;
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  .founder-img {
+    width: 100%;
+    max-width: 95%;
+    padding: 1em;
+    margin: 0 auto;
+  }
+}
+
+h3 {
+  color: black;
+  font-style: normal;
+  font-size: min(1.375rem, 1rem + 0.42vw);
+  font-size-adjust: min(1.375rem, 1rem + 0.42vh);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  width: 100%;
+  max-width: 100%;
+  padding: 1em;
+  margin: 0 auto;
+}
+.our-wn-family {
+  color: #2d2d2d;
+  font-style: normal;
+  font-size: min(1.375rem, 1rem + 0.42vw);
+  font-size-adjust: min(1.375rem, 1rem + 0.42vh);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.meet-our-founders {
+  color: #2d2d2d;
+  font-style: normal;
+  font-size: min(1.375rem, 1rem + 0.42vw);
+  font-size-adjust: min(1.375rem, 1rem + 0.42vh);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.carousel-slider__photo-container--cropped {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px; /* Set the desired height */
+}
+
+.carousel-slider__photo-container--cropped img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.feature-title {
+  color: #2d2d2d;
+  font-style: normal;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .vendor-link-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .vendor-link-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+}
+.vendor-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+
+  text-transform: uppercase;
+  color: #2d2d2d;
+  transition: color 0.3s;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+.vendor-link:hover {
+  color: #97938e;
+}
+.testimonial__background-photo {
+  background-image: url(//images-pw.pixieset.com/elementfield/143860323/1_Welcome_Dinner_026-new-533ebec5.jpg);
+  background-position: "48% 50%";
+}
+.element-container {
+  display: flex;
+  width: 100%;
+}
+
+.love-notes {
+  color: #2d2d2d;
+  font-style: normal;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 20px;
+}
+.couple-names {
+  color: #2d2d2d;
+  font-style: normal;
+  font-size: min(1.375rem, 1rem + 0.42vw);
+  font-size-adjust: min(1.375rem, 1rem + 0.42vh);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+.couple-img {
+  width: 100%;
+  height: 100%;
+}
